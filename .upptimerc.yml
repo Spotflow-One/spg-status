@@ -3,21 +3,20 @@ owner: Spotflow-One # Your GitHub organization or username, where this repositor
 repo: spg-status # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
-  - name: Gateway
+  - name: Gateway API
     url: https://api.spotflow.co/actuator/health
+    expectedStatusCodes:
+      - 200
+  - name: Admin API
+    url: https://admin-api.spotflow.co/api-docs
+    expectedStatusCodes:
+      - 200
+  - name: Merchant Dashboard
+    url: https://app.spotflow.co
+    expectedStatusCodes:
+      - 200
+  - name: Documentation
+    url: https://docs.spotflow.co
     expectedStatusCodes:
       - 200
 
