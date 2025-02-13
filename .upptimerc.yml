@@ -7,10 +7,10 @@ sites:
     url: https://api.spotflow.co/actuator/health
     expectedStatusCodes:
       - 200
-  - name: Admin API
-    url: https://admin-api.spotflow.co/api-docs
+  - name: Checkout Service
+    url: https://checkout.spotflow.co
     expectedStatusCodes:
-      - 200
+      - 404
   - name: Merchant Dashboard
     url: https://app.spotflow.co
     expectedStatusCodes:
