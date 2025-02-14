@@ -10,7 +10,7 @@ sites:
   - name: Checkout Service
     url: https://checkout.spotflow.co
     expectedStatusCodes:
-      - 404
+      - 200
   - name: Merchant Dashboard
     url: https://app.spotflow.co
     expectedStatusCodes:
