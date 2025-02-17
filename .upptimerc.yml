@@ -19,6 +19,10 @@ sites:
     url: https://docs.spotflow.co
     expectedStatusCodes:
       - 200
+  - name: Ledger
+    url: https://ledger-api.spotflow.co/
+    expectedStatusCodes:
+      - 401
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
