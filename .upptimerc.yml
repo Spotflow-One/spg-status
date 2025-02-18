@@ -45,7 +45,7 @@ status-website:
     - title: Status
       href: /
   theme: dark
-runner: "[self-hosted, linux, x64, spotflow, prod]"
+runner: "[self-hosted, Linux, X64, spotflow, prod]"
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
