@@ -19,18 +19,6 @@ sites:
     url: https://docs.spotflow.co
     expectedStatusCodes:
       - 200
-  - name: Ledger
-    url: https://ledger-api.spotflow.co/
-    expectedStatusCodes:
-      - 401
-  - name: Typesense
-    url: https://typesense.spotflow.co/health
-  
-  - name: Admin API
-    url: https://admin-api.spotflow.co/api-docs
-  
-  - name: Google
-    url: https://google.com/
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
