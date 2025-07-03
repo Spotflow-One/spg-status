@@ -1,7 +1,7 @@
 url: https://api.spotflow.co/actuator/health
 status: up
 code: 200
-responseTime: 76
-lastUpdated: 2025-07-03T00:37:00.264Z
+responseTime: 75
+lastUpdated: 2025-07-03T23:02:55.237Z
 startTime: 2025-02-12T22:35:01.772Z
 generator: Upptime <https://github.com/upptime/upptime>
