@@ -1,7 +1,7 @@
 url: https://api.spotflow.co/actuator/health
 status: down
 code: 404
-responseTime: 58
-lastUpdated: 2025-07-12T23:03:04.571Z
+responseTime: 71
+lastUpdated: 2025-07-13T23:02:48.833Z
 startTime: 2025-02-12T22:35:01.772Z
 generator: Upptime <https://github.com/upptime/upptime>
