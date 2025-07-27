@@ -4,7 +4,11 @@ repo: spg-status # The name of this repository
 
 sites:
   - name: Gateway API
-    url: https://api.spotflow.co/actuator/health
+    url: https://api.spotflow.co/gateway/actuator/health
+    expectedStatusCodes:
+      - 200
+  - name: Accounts API
+    url: https://api.spotflow.co/accounts/actuator/health
     expectedStatusCodes:
       - 200
   - name: Checkout Service
